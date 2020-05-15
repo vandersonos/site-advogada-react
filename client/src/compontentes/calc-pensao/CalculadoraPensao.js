@@ -47,7 +47,7 @@ class CalculadoraPensao extends React.Component{
                         <div className="card card-panel p-4 mt-4">
                             <div className=' row '>
                                 <div className="col-4 col-md-1">
-                                <img src="../../img/calculadora.svg" className='logo-calculadora'></img>
+                                <img src="../img/calculadora.svg" className='logo-calculadora'></img>
                                 </div>
                                 <div className="col-8 col-md-11 ">
                                     <h6>Estimativa de valor da pensão de alimentícia</h6>
