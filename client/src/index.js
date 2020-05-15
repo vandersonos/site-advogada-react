@@ -20,7 +20,7 @@ ReactDOM.render(
     <BrowserRouter>
         <Switch>
             <Route path="/" exact={true} component={App} />
-            <Route path="/#calculadora-pensao-alimenticia" component={CalculadoraPensao} />
+            <Route path="/calculadora-pensao-alimenticia" component={CalculadoraPensao} />
             <Route path='*' component={ComponenteDePagina404} />
         </Switch>
     </ BrowserRouter>, 
