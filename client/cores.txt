@@ -1,0 +1,2 @@
+nav -- #d4af37 dourado escuro
+body - #fafafa !important gafite claro

@@ -1,0 +1,73 @@
+Arguments: 
+  /home/gitpod/.nvm/versions/node/v12.16.2/bin/node /home/gitpod/.nvm/versions/node/v12.16.2/bin/yarn add fortawesome
+
+PATH: 
+  /home/gitpod/.nvm/versions/node/v12.16.2/bin:/home/gitpod/.cargo/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/home/gitpod/.pyenv/shims:/workspace/.cargo/bin:/workspace/.pip-modules/bin:/workspace/.rvm/bin:/home/gitpod/.cargo/bin:/home/gitpod/.sdkman/candidates/maven/current/bin:/home/gitpod/.sdkman/candidates/java/current/bin:/home/gitpod/.sdkman/candidates/gradle/current/bin:/home/gitpod/.cargo/bin:/home/gitpod/.rvm/gems/ruby-2.6.5/bin:/home/gitpod/.rvm/gems/ruby-2.6.5@global/bin:/home/gitpod/.rvm/rubies/ruby-2.6.5/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/home/gitpod/.pyenv/shims:/workspace/.cargo/bin:/workspace/.pip-modules/bin:/workspace/.rvm/bin:/home/gitpod/.pyenv/bin:/home/gitpod/.pyenv/shims:/workspace/go/bin:/home/gitpod/go/bin:/home/gitpod/go-packages/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin/:/home/gitpod/.nvm/versions/node/v12.16.2/bin:/home/gitpod/.rvm/bin:/home/gitpod/.rvm/bin:/home/gitpod/.rvm/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/fortawesome: Not found
+      at Request.params.callback [as _callback] (/home/gitpod/.nvm/versions/node/v12.16.2/lib/node_modules/yarn/lib/cli.js:66987:18)
+      at Request.self.callback (/home/gitpod/.nvm/versions/node/v12.16.2/lib/node_modules/yarn/lib/cli.js:140748:22)
+      at Request.emit (events.js:310:20)
+      at Request.<anonymous> (/home/gitpod/.nvm/versions/node/v12.16.2/lib/node_modules/yarn/lib/cli.js:141720:10)
+      at Request.emit (events.js:310:20)
+      at IncomingMessage.<anonymous> (/home/gitpod/.nvm/versions/node/v12.16.2/lib/node_modules/yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:416:28)
+      at IncomingMessage.emit (events.js:322:22)
+      at endReadableNT (_stream_readable.js:1187:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "site-taiane",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "bower": "^1.8.8",
+      "jquery": "^3.5.0",
+      "jquery-mask-plugin": "^1.14.16",
+      "material-icons": "^0.3.1",
+      "materialize-css": "^1.0.0",
+      "popper.js": "^1.16.1",
+      "react": "^16.12.0",
+      "react-dom": "^16.12.0",
+      "react-router-dom": "^5.1.2",
+      "react-scripts": "3.2.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
