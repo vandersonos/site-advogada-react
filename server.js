@@ -5,6 +5,7 @@ var createError = require('http-errors');
 // var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var path = require('path');
 const bodyParser= require('body-parser')
 
 
@@ -14,7 +15,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(bodyParser.urlencoded({extended: true}))
+app.use(express.static(path.join(__dirname, 'client/build/')));
 
+app.get('/', function(req, res, next) {
+  res.render('index');
+});
 app.post('/mail/send', function(req, res, next) {
   console.log(req.body, 'corpo')
   const nome = req.body.nome;
