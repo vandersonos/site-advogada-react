@@ -2,9 +2,7 @@
   "name": "node-react",
   "version": "1.0.0",
   "scripts": {
-    "client": "cd client && npm start",
-    "server": "node server.js",
-    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+    "server": "node server.js"
   },
   "dependencies": {
     "aws-sdk": "^2.610.0",

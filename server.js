@@ -17,9 +17,9 @@ app.use(cookieParser());
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(express.static(path.join(__dirname, 'client/build/')));
 
-app.get('/', function(req, res, next) {
-  res.render('index');
-});
+// app.get('/', function(req, res, next) {
+//   res.render('index');
+// });
 app.post('/mail/send', function(req, res, next) {
   console.log(req.body, 'corpo')
   const nome = req.body.nome;
@@ -30,7 +30,7 @@ app.post('/mail/send', function(req, res, next) {
   const estilo = "<style > .btn{ display:none;} label{ padding:'10px';    min-width: 200px; } .modal{ display:none } .form-group { display: none;} </style>";
 
   // Provide the full path to your config.json file. 
-  aws.config.loadFromPath("config.json");
+  aws.config.loadFromPath("./routes/config.json");
 
   // Replace sender@example.com with your "From" address.
   // This address must be verified with Amazon SES.
