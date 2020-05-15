@@ -2,7 +2,7 @@
   "name": "node-react",
   "version": "1.0.0",
   "scripts": {
-    "server": "node server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "aws-sdk": "^2.610.0",
