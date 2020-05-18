@@ -10,7 +10,7 @@ let artigos = [
             texto:"",
             links:[{
                 url:"/calculadora-pensao-alimenticia",
-                title:"Calcule os valores da pensão alimentícia"
+                title:"Clique aqui e calcule os valores da pensão alimentícia"
             }]
         },
         {

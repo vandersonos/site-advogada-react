@@ -88,7 +88,7 @@ class CustosIndividuais extends React.Component{
                     </div>
                  
                     <div className="form-group row">
-                        <label className='col-sm-8' htmlFor="item-vestuario">Vestuáio</label>
+                        <label className='col-sm-8' htmlFor="item-vestuario">Vestuário</label>
                         <input id="item-vestuario" type="number" onChange={this.calcula} className="form-control form-control-sm col-12 col-sm-4"/> 
                     </div>
                  
