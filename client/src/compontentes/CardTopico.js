@@ -34,7 +34,7 @@ class CardTopico extends React.Component{
             <div className="col-12 col-sm-12 col-xl-12 card-topico" >
                 <div id={this.props.id} className="section scrollspy">
                     
-                    <div className="card  mt-4 mx-sm-2 mx-md-5">            
+                    <div className="card  mt-4">            
                         { this.props.alinhamento === 'left' &&
                             <div className="row ">
                             {imagem}

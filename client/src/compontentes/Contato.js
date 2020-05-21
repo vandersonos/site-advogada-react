@@ -149,7 +149,7 @@ class Contato extends React.Component{
         return (
             <div className="col-12">
                 <div id={this.props.id} className="section scrollspy">
-                    <div className="card card-panel mt-4 mx-sm-2 mx-md-5 px-4 mb-5 py-4">
+                    <div className="card card-panel mt-4 px-4 mb-5 py-4">
                         <div className="row">                              
                             
                             <form className="col-12 col-sm-6 form-contato">

@@ -42,8 +42,9 @@ class CalculadoraPensao extends React.Component{
         return (
             <div className="container-calculadora">
                 <Navbar artigos={Artigos}/>
-                <div className=' row calculadora mx-auto'>
-                    <div className="col-12 col-md-12 col-lg-6 offset-lg-3 ">
+                <div className='container'>
+                <div className=' row calculadora'>
+                    <div className="col-12 col-md-12 col-lg-8 offset-lg-2 ">
                         <div className="card card-panel p-4 mt-4">
                             <div className=' row '>
                                 <div className="col-4 col-md-1">
@@ -80,7 +81,12 @@ class CalculadoraPensao extends React.Component{
         
                     </div>
                 </div>
-                <Contato />
+                <div className=' row calculadora'>
+                     <div className="col-12 col-md-12 col-lg-8 offset-lg-2 ">
+                    <Contato />
+                    </div>  
+                </div>
+                </div>
             </div>
         )
        
