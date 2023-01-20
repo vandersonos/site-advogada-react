@@ -84,12 +84,7 @@ class CalculadoraPensao extends React.Component {
                     </div>
                 </div>
                 <hr />
-                <section className='section-contact'>
-                    <div className='flex  justify-center '>
-                        <Contato id='contato' />
-                    </div>
-                </section>
-                <Footer />
+
 
             </div>
         )

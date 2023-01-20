@@ -899,6 +899,10 @@ nav {
   background-color: var(--corpadraoPastel);
 }
 
+.form-wrapper-component {
+  background: var(--corpadraoPastel) !important;
+}
+
 .section-contact {
   background-color: var(--corpadraoPastel);
   color: #4b4d4e;

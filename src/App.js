@@ -54,13 +54,9 @@ function App() {
 
 
 
-                <section className='section-contact'>
-                    <div className='flex  justify-center '>
-                        <Contato id='contato' />
-                    </div>
-                </section>
+
             </div>
-            <Footer />
+
 
         </div>
     );

@@ -222,7 +222,7 @@ class Contato extends React.Component {
                         <div className='flex justify-center itens-center pt-4'>Fone: (53) 98111-9605  /  Email: Taianemartinscosta@gmail.com</div>
                     </div>
                 </div>
-                <iframe src="https://forms.monday.com/forms/embed/1f5edb3a5c811e1f8301d69c6e27f1f6?r=use1" width="650" height="500" style="border: 0; box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);"></iframe>
+
             </div >
         )
     }

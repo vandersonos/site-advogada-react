@@ -70,7 +70,7 @@ class Proporcionalidade extends React.Component {
                         </p>
                     </div>
                 </div>
-                <div className='flex '>
+                <div className='flex flex-col'>
 
                     <div className="form-group row">
                         <label htmlFor="p-renda-pagar">Renda quem vai pagar (R$)</label>
